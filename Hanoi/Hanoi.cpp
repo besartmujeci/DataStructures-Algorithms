@@ -14,7 +14,7 @@ string Hanoi::get_moves(int num_discs, int src, int dst, int tmp) {
         sequence += get_moves(num_discs - 1, tmp, dst, src);
     }
     // Resize the sub-caches just enough to fit what you're trying to store
-    // clear everything beneath.
+    // & Clear everything beneath.
     _cache[num_discs].resize(src + 1);
 	_cache[num_discs][src].resize(dst + 1);
 	_cache[num_discs][src][dst] = sequence;
