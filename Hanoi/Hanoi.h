@@ -3,7 +3,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-using namespace std;
+
 class Hanoi {
 private:
 	vector<vector<vector<string>>> _cache;

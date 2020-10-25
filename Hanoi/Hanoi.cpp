@@ -1,4 +1,5 @@
 #include "Hanoi.h"
+using namespace std;
 //Solves the Tower of Hanoi problem recursively and caches the result for a quicker subsequent response
 string Hanoi::get_moves(int num_discs, int src, int dst, int tmp) {
     string sequence = "";
