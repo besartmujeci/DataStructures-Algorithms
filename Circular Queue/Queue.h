@@ -51,9 +51,7 @@ size_t Queue<T>::size() const {
 	if (x < 0) {
 		return x *= -1;
 	}
-	else {
-		return x;
-	}
+	return x;
 }
 
 
