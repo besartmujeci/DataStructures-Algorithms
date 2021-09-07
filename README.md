@@ -1,4 +1,2 @@
 # DataStructures-Algorithms
-Practicing DS &amp; A
-
-Languages: Python, C++, Java
+Practicing DS &amp; A in Python, C++, Java
